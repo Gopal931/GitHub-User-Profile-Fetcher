@@ -1,0 +1,42 @@
+.container{
+    margin-top: 0px;
+    display: flex;
+    gap: 10px;
+}
+.container .image img{
+    height:200px;
+    width: 200px;
+   
+}
+.container .image{
+    padding: 8px;
+    background-color: rgb(238, 241, 241);
+    border: 1px solid black;
+}
+.repoList{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.reprosPara{
+    display: flex;
+    gap: 6px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+
+.reprosPara p{
+    background-color: orange;
+    padding:0px 10px;
+    width: auto;
+    align-content: center;
+    justify-content: center;
+    
+}
+.mainContainer{
+    display:none;
+}
+.btn{
+    background-color: rgba(0, 255, 140, 0.719);
+    color:white;
+}
